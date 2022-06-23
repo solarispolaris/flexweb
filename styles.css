@@ -3,6 +3,18 @@ display: flex;
 flex-direction: column;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.link-container{
+    display: flex;
+    gap: 20px;
+}
+
+
 .img-collection{
     display: flex;
     justify-content: center;
