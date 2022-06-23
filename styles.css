@@ -2,3 +2,13 @@ body{
 display: flex;
 flex-direction: column;
 }
+
+.img-collection{
+    display: flex;
+}
+
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
