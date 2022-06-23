@@ -5,6 +5,8 @@ flex-direction: column;
 
 .img-collection{
     display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 
