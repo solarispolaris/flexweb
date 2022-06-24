@@ -126,16 +126,44 @@ body{
 
 .quote-box .quote-origin{
     align-self: flex-end;
+    font-weight: 600;
 }
 
 .call-action{
-    background-color: #3882F6;
+    padding: 100px;
     display: flex;
     justify-content: center;
-    width:1000px;
+    align-items: center;
+}
+
+.call-box{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text p{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.call-text .call-header{
+    font-size: 20px; 
+    font-weight: bold; 
+}
+.call-text .call-secondary{
+    font-size: 12px;  
 }
 
 .footer{
@@ -153,6 +181,7 @@ button{
     width: 200px;
     height: 50px;
 }
+
 
 a{
     text-decoration: none;
