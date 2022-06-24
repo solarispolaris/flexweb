@@ -22,12 +22,25 @@ flex-direction: column;
 .link-container{
     display: flex;
     gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .preview{
     display: flex;
     margin-bottom: 100px;
     justify-content: space-around;
+}
+
+.website-titlecard{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.website-secondarycard{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .business-img{
@@ -46,4 +59,24 @@ flex-direction: column;
 .img-container{
     display: flex;
     flex-direction: column;
+    border: 1px;
+    border-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    width:1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 10px 50px;
 }
