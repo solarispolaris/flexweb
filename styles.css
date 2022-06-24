@@ -16,6 +16,7 @@ flex-direction: column;
 
 .header p{
     font-size: 24px;
+    margin: 0;
     color: #F9FAF8;
 }
 
@@ -63,8 +64,8 @@ flex-direction: column;
     border-color: #3882F6;
 }
 
-.footer{
-    background-color: #1F2937;
+.call-action{
+    background-color: #3882F6;
     display: flex;
     justify-content: center;
     width:1000px;
@@ -73,10 +74,21 @@ flex-direction: column;
     margin-right: auto;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
+
 button{
     background-color: #3882F6;
-    border: none;
     border-radius: 10px;
+    border-color: #F9FAF8;
     color: #F9FAF8;
     padding: 10px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
 }
