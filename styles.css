@@ -34,7 +34,6 @@ body{
     display: flex;
     margin-bottom: 100px;
     justify-content: space-around;
-    margin-bottom: 100px;
     
 }
 
@@ -151,6 +150,8 @@ button{
     border-color: #F9FAF8;
     color: #F9FAF8;
     padding: 10px 50px;
+    width: 200px;
+    height: 50px;
 }
 
 a{
