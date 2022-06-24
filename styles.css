@@ -10,7 +10,7 @@ flex-direction: column;
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 178px;
     margin-bottom: 100px;
 }
 
@@ -45,10 +45,22 @@ flex-direction: column;
 }
 
 .business-img{
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
 }
 
+.random-info-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-header{
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
 
 .img-collection{
     display: flex;
@@ -60,8 +72,23 @@ flex-direction: column;
 .img-container{
     display: flex;
     flex-direction: column;
-    border: 1px;
+    
+    
+}
+
+.img-container img{
+    border: 2px;
+    border-style: solid;
     border-color: #3882F6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.quote{
+    background-color: #E5E7EB;
 }
 
 .call-action{
