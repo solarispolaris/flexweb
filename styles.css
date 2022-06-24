@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px 178px;
-    margin: 0 0 100px 0;
+    margin-bottom: 100px;
 }
 
 .header p{
@@ -34,17 +34,27 @@ body{
     display: flex;
     margin-bottom: 100px;
     justify-content: space-around;
+    margin-bottom: 100px;
+    
+}
+
+.description{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px;
 }
 
 .website-titlecard{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .website-secondarycard{
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 
 .business-img{
@@ -55,6 +65,7 @@ body{
 .random-info-section{
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
     
 }
 
@@ -94,18 +105,16 @@ body{
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    height: 250px;
    
 }
 
 .quote-box{
-    background-color: #3882F6;
-    width: 1000px;
-    border-style: solid;
-    border-color: black;
-    border: 1px;
+    width: 500px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .quote-box .quote-text{
@@ -113,6 +122,7 @@ body{
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .quote-box .quote-origin{
