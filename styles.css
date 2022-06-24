@@ -3,10 +3,20 @@ display: flex;
 flex-direction: column;
 }
 
+.upper-half{
+    background-color: #1F2937;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     padding: 20px 100px;
+    margin-bottom: 100px;
+}
+
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .link-container{
@@ -14,11 +24,22 @@ flex-direction: column;
     gap: 20px;
 }
 
+.preview{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.business-img{
+    width: 500px;
+    height: 250px;
+}
+
 
 .img-collection{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 
