@@ -1,17 +1,20 @@
 body{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .upper-half{
     background-color: #1F2937;
+    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     padding: 20px 178px;
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
 }
 
 .header p{
@@ -89,6 +92,31 @@ flex-direction: column;
 
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.quote-box{
+    background-color: #3882F6;
+    width: 1000px;
+    border-style: solid;
+    border-color: black;
+    border: 1px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.quote-box .quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-box .quote-origin{
+    align-self: flex-end;
 }
 
 .call-action{
