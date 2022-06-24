@@ -84,8 +84,8 @@ body{
 
 .img-container{
     display: flex;
-    flex-direction: column;
-    
+    flex-flow: column wrap;
+    max-width: 250px;
     
 }
 
@@ -96,6 +96,11 @@ body{
     border-radius: 10px;
     width: 250px;
     height: 250px;
+}
+
+.img-container p{
+    color: #1F2937;
+    align-self: center;
 }
 
 
